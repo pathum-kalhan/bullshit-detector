@@ -1,0 +1,21 @@
+{
+  "name": "sinhala_profanity_filter",
+  "version": "1.0.0",
+  "description": "This is a sinhala profanity filter",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "sinhala",
+    "srilanka",
+    "srilankan",
+    "bad",
+    "word",
+    "bad",
+    "words",
+    "profanity"
+  ],
+  "author": "S.M Pathum Kalhan",
+  "license": "ISC"
+}
