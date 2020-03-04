@@ -4,7 +4,8 @@
   "description": "This is a sinhala profanity filter",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint":"eslint '**/*.js' --fix"
   },
   "keywords": [
     "sinhala",
@@ -17,5 +18,10 @@
     "profanity"
   ],
   "author": "S.M Pathum Kalhan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
 }
